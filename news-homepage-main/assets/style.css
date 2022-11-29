@@ -1,42 +1,94 @@
-
+@font-face {
+    font-family: inter;
+    src: url(https://fonts.google.com/specimen/Inter);
+  }
 body
-{
-    size: 1440px;
+{   
+    max-width: 1440px;
     margin: auto;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: inter;
+}
+p 
+{
+    color: hsl(236, 13%, 42%);
 }
 header
 {
-    margin: 15px;
+    width: 100%;
+    margin: auto;
     display: flex;
 }
 .logos
 {
-    padding: 10px;
+    padding: 25px;
     float: left;
 }
 .nav_elements
 {
+    position: relative;
+    top: 25px;
     float: left;
-    margin-left: 100px;
+    margin-left: 850px;
 }
 ul li 
 {
     text-decoration: none;
     font-size: 15px;
+    color: hsl(233, 8%, 79%);
     display: inline;
-    padding: 10px;
+    font-weight: 400;
+    padding: 25px 20px 25px 0;
 }
 a
 {
     text-decoration: none;
+    color: hsl(233, 8%, 79%);
+}
+a:hover
+{
+    color: hsl(35, 77%, 62%);
 }
 main
 {
-    size: 1440px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin: 25px;
+}
+.left_panel
+{
+    float: left;
+    max-width: 900px;
+}
+img, .image
+{
+    width: 100%;
+    height: auto;
+}
+.right_panel
+{
+    width: 540px;
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 0 0 25px;
+}
+article
+{
+    width: 100%;
+    padding: 25px;
+}
+h2
+{
+    color: hsl(35, 77%, 62%);
+    font-size: 38px;
+    font-weight: 800;
 }
 footer
 {
-
+    width: 100%;
+    margin: auto;
+}
+strong
+{
+    font-weight: 700;
 }
