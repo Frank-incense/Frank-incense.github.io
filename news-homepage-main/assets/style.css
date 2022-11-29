@@ -1,31 +1,40 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(https://fonts.google.com/specimen/Inter);
-  }
+
 body
 {
     size: 1440px;
-    margin: 0;
+    margin: auto;
     font-size: 15px;
-    font-family: myFirstFont;
+    font-family: 'Courier New', Courier, monospace;
 }
 header
 {
-     margin: 15px;
+    margin: 15px;
     display: flex;
 }
-a .logos
+.logos
 {
-
+    padding: 10px;
+    float: left;
 }
-nav .nav_elements
+.nav_elements
+{
+    float: left;
+    margin-left: 100px;
+}
+ul li 
 {
     text-decoration: none;
-    font-size: 21px;
+    font-size: 15px;
+    display: inline;
+    padding: 10px;
+}
+a
+{
+    text-decoration: none;
 }
 main
 {
-
+    size: 1440px;
 }
 footer
 {
