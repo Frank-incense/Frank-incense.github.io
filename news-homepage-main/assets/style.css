@@ -8,15 +8,21 @@ body
     margin: auto;
     font-size: 15px;
     font-family: inter;
+    color: hsl(240, 100%, 5%);
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
 }
 p 
 {
     color: hsl(236, 13%, 42%);
+    font-weight: 400;
 }
 header
 {
     width: 100%;
-    margin: auto;
+    margin: 20px;
     display: flex;
 }
 .logos
@@ -28,6 +34,7 @@ header
 {
     position: relative;
     top: 25px;
+    left: 90px;
     float: left;
     margin-left: 850px;
 }
@@ -59,36 +66,83 @@ main
 .left_panel
 {
     float: left;
-    max-width: 900px;
+    max-width: 70%;
 }
-img, .image
+.image
 {
     width: 100%;
     height: auto;
 }
+.under_image
+{
+    display: flex;
+}
+.page_title 
+{
+    margin-right: 25px;
+}
+.page_description
+{
+    margin-left: 20px;
+    padding: 0 0 0 25px;
+}
+.btn
+{
+  padding: 10px 20px;
+  color: hsl(233, 8%, 79%);
+  background-color: hsl(240, 100%, 5%);   
+}
+.btn:hover
+{
+    background-color: hsl(35, 77%, 62%);
+}
 .right_panel
 {
-    width: 540px;
+    width: 27%;
     background-color: hsl(240, 100%, 5%);
     margin: 0 0 0 25px;
 }
-article
+.articles
 {
     width: 100%;
-    padding: 25px;
+    margin: 25px;
 }
+
 h2
 {
     color: hsl(35, 77%, 62%);
     font-size: 38px;
     font-weight: 800;
 }
-footer
+h3
 {
+    font-size: 28px;
+    font-weight: 700px;
+    color: hsl(233, 8%, 79%);
+}
+footer, section
+{
+    display: flex;
     width: 100%;
     margin: auto;
+    padding: 25px 0;
+}
+section
+{
+    margin: auto;
+}
+.footerimg
+{
+    width: 30%;
+    height: 200px;
+}
+.footer_note
+{
+    width: 50%;
+    padding: 20px;
 }
 strong
 {
     font-weight: 700;
+    color: hsl(240, 100%, 5%);
 }
