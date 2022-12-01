@@ -18,98 +18,127 @@
   </style>
 </head>
 <body>
-  
-  <header>
-    <div>
-      <div class="logos">
-        <a href="index.html">
-          <img src="assets/images/logo.svg" alt="">
-        </a>
-      </div>
-      <div class="nav_elements">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
-        </ul>
-      </div>
-      
+
+  <!-- Cpntains all the header elements -->
+  <div class="header">
+
+    <!-- contains the logo image -->
+    <div class="logos">
+      <img src="/news-homepage-main/assets/images/logo.svg" alt="">
     </div>
-  </header>
-  <main>
-    <div class="left_panel">
-      <img 
-      src="assets/images/image-web-3-desktop.jpg" 
-      alt="" 
-      class="image">
-      <div class="under_image">
-        <div class="page_title">
-          <h1>The Bright Future of Web 3.0?</h1>
+
+    <!-- contains the the ul li and a elements -->
+    <div class="nav_elements">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contains all the main elements of the webpage -->
+  <div class="main">
+
+    <!-- Contains the image and page title for the whole page -->
+    <div class="right_panel">
+
+      <!-- Contains image -->
+      <div class="image">
+        <img src="/news-homepage-main/assets/images/image-web-3-desktop.jpg" alt="abstract image">
+      </div>
+
+      <!-- Page title and a main topic being covered by the page -->
+      <div class="story">
+        <div class="splitl">
+          <h1>
+            The Bright Futer of Web 3.0?
+          </h1>
         </div>
-        <div class="page_description">
-          <p class="description">
-            We dive into the next evolution of the web that claims 
-            to put the power of the platforms back into the hands of
-            the people. But is it really fulfilling its promise?
+        <div class="splitr">
+          <p>
+            We dive into the next evolution of the web that claims to put power
+            of the platforms back into the people. But is it really fulfillin 
+            its promise?
           </p>
           <input type="button" value="READ MORE" class="btn">
         </div>
       </div>
     </div>
-    <div class="right_panel">
+
+    <!-- Contains the short trailer articles -->
+    <div class="left_panel">
+      <h2>New</h2>
       <div class="articles">
-        <article>
-          <h2>New</h2>
-          <h3><a>Hydrogen VS Electric Cars</a></h3>
-          <p class="description">
-            Will hydrogen-fueled cars ever catch up to EVs?
-          </p>
-        </article>
-        <article>
-          <h3><a>The Downsides of AI Artistry</a></h3>
-          <p class="description">
-            What are the possible adverse effects of on-demand AI 
-            image generation?
-          </p>
-        </article>
-        <article>
-          <h3><a>Is VC Funding Drying Up?</a></h3>
-          <p class="description">
-            Private funding by VC firms is down 50% YOY. We take a 
-            look at what that means.
-          </p>
-        </article>
+        <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+        <p>
+          Will hyrdrogen-fueled cars ever catch up fo EVs?
+        </p>
+      </div>
+      <div class="articles">
+        <h3><a href="#" class="">The Downsides of AI Artistry</a></h3>
+        <p>
+          What are the possible adverse effects of on-demand AI image generation?
+        </p>
+      </div>
+      <div class="articles">
+        <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+        <p>
+          Private funding by VC firns is down 50% YOY. We take a look at what that
+          means.
+        </p>
       </div>
     </div>
-  </main>
-  <footer>
-    <section>
-      <img src="assets/images/image-retro-pcs.jpg" alt="" class="footerimg">
-      <div class="footer_note">
+  </div>
+
+  <!-- Contains all the "footer" elements of the webpage -->
+  <div class="footer">
+    <div class="footer_elements">
+      <div>
+        <img src="" alt="retro pc image">
+      </div>
+      <div>
         <h3>01</h3>
-        <p><strong><a>Reviving Retro PCs</a></strong></p>
-        <p>What happens when old PCs are given modern upgrades?</p>
+        <p>
+          <strong>Retriving Retro PCs</strong>
+        </p>
+        <p>
+          What happens when old PCs are given modern upgrades?
+        </p>
       </div>
-    </section>
-    <section>
-      <img src="assets/images/image-top-laptops.jpg" alt="" class="footerimg">
-      <div class="footer_note">
+    </div>
+    <div class="footer_elements">
+      <div>
+        <img src="" alt="keyboard image">
+      </div>
+      <div>
         <h3>02</h3>
-        <p><strong><a>Top 10 Laptops of 2022</a></strong></p>
-        <p>Our best picks for various needs and budgets.</p>
+        <p>
+          <strong>Top 10 Laptops of 2022</strong>
+        </p>
+        <p>
+          Our best picks for various needs and budgets.
+        </p>
       </div>
-    </section>
-    <section>
-      <img src="assets/images/image-gaming-growth.jpg" alt="" class="footerimg">
-      <div class="footer_note">
+    </div>
+    <div class="footer_elements">
+      <div>
+        <img src="" alt="game console controller">
+      </div>
+      <div>
         <h3>03</h3>
-        <p><strong><a>The Growth of Gaming</a></strong></p>
-        <p>How the pandemic has sparked fresh opportunities.</p>
+        <p>
+          <strong>The Growth of Gaming</strong>
+        </p>
+        <p>
+          How the pandemic has sparked fresh opportunities.
+        </p>
       </div>
-    </section>
-  </footer>
+    </div>
+  </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Frankincense Wesley</a>.
