@@ -1,0 +1,153 @@
+body
+{
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: hsl(36, 100%, 99%);
+}
+h1
+{
+    font-size: 48px;
+    font-weight: 800;
+    color:  hsl(240, 100%, 5%);
+}
+h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+}
+h3
+{
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(233, 8%, 79%);
+}
+.links
+{
+    color: hsl(233, 8%, 79%);
+}
+.header
+{
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+}
+.logos
+{
+    margin: 15px 0 15px 0;
+}
+.nav_elements
+{
+    position: relative;
+    top: 15px;
+    margin-left: 825px;
+}
+ul, li
+{
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+}
+a
+{
+    
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+a:hover
+{
+    color: hsl(35, 77%, 62%);
+}
+
+/* style rules for the main body */
+
+.main
+{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+}
+.right_panel
+{
+    width: 75%;
+    height: auto;
+    margin-right: 15px;
+}
+.image
+{
+    width: 100%;
+    height: auto;
+    margin-right: 15px;
+}
+.story
+{
+    display: flex;
+}
+.splitl
+{
+    width: 50%;
+    margin-right: 10px;
+}
+.splitr
+{
+    width: 50%;
+    margin-left: 10px;
+}
+input, .btn
+{
+    padding: 15px 35px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;   
+}
+input:hover
+{
+    background-color: hsl(240, 100%, 5%);
+    border: none;
+}
+.left_panel
+{
+    width: 25%;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+}
+.articles
+{
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    
+}
+
+/* style rules for the footer class */
+
+.footer
+{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    margin: 15px 0 15px 0;
+}
+.footer_elements
+{
+    display: flex;
+    margin: 15px 0 15px 0;
+}
+.footer_img
+{
+    height: auto;
+    padding: 25px;
+    height: auto;
+}
+strong
+{
+    color:  hsl(240, 100%, 5%);
+}
+strong:hover
+{
+    color: hsl(35, 77%, 62%);
+}
